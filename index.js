@@ -9,7 +9,7 @@ const {productRouter} = require("./routes/product.route")
 app.use("/users",userRouter)
 app.use("/products", productRouter)
 
-const abc = 123
+const abc = 12
 
 app.listen(4500,async()=>{
     try {
