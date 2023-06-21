@@ -5,7 +5,7 @@ const {connection} = require("./config/db")
 const {userRouter} = require("./routes/user.route")
 const {productRouter} = require("./routes/product.route")
 
-let abc = 12345;
+let abc = 12345
 app.use("/users",userRouter)
 app.use("/products", productRouter)
 
